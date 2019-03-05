@@ -4,7 +4,7 @@ var y_axis = [22, 21.5, 21, 21.3, 21];
 
 window.onload = function () {
     createChart();
-    setInterval(updateChart, 1000);
+    setInterval(updateChart, 60000);
     setInterval(updateDate, 1000);
 };
 
